@@ -100,6 +100,15 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: $brand-color-2;
+    color: $brand-light;
+}
+
+.site-copyright {
+    // border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit / 2 0;
+    background-color: $brand-color-3;
+    color: $brand-light;
 }
 
 .footer-heading {

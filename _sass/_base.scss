@@ -25,7 +25,14 @@ body {
     font-kerning: normal;
 }
 
+/* apply a natural box layout model to all elements, but allowing components to change */
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -35,6 +42,9 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 
@@ -95,7 +105,7 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: rgba($brand-color, 0.75);
     }
 
     &:hover {
@@ -151,7 +161,6 @@ pre {
 }
 
 
-
 /**
  * Wrapper
  */
@@ -203,4 +212,10 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+.label {
+    padding: $spacing-unit / 8 $spacing-unit / 4;
+    background-color: $grey-color-light;
+    border-radius: 4px;
 }

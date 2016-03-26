@@ -16,7 +16,12 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #29A19C; // #2a7ae2;
+$highlight-color:  #A3F7BF; // #2a7ae2;
+
+$brand-color-2:    #435055; // #2a7ae2;
+$brand-color-3:    #27323A; // #303841; // #2a7ae2;
+$brand-light:      #fdfdfd;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -44,10 +49,15 @@ $on-laptop:        800px;
 }
 
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "helpers/classes",
+        "components/hero",
+        "components/grid",
+        "components/modal",
+        "components/slick",
+        "pages/index"
 ;

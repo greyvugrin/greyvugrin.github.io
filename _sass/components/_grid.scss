@@ -1,0 +1,17 @@
+.grid {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.grid--3-up {
+	.grid__item {
+		-webkit-flex-basis: 33.33%;-ms-flex-preferred-size: 33.33%;flex-basis: 33.33%;
+		padding: $spacing-unit / 8;
+	}
+}

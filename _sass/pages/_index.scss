@@ -1,0 +1,43 @@
+.home-split-heroes {
+	position: relative;
+	.hero {
+		-webkit-flex: 1;-ms-flex: 1;flex: 1;
+		height: 600px;
+		height: 70vh;
+	}
+	.plus-sign {
+		position: absolute;
+		width: 4rem;
+		height: 0.5rem;
+		background-color: $brand-light;
+		top: 50%;
+		left: 50%;
+		transition: 0.2s all ease-out;
+		-webkit-transform: translateY(-50%) translateX(-50%);transform: translateY(-50%) translateX(-50%);
+		&::before {
+			height: 4rem;
+			width: 0.5rem;
+			content: "";
+			display: block;
+			background-color: $brand-light;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transition: 0.2s all ease-out;
+			-webkit-transform: translateY(-50%) translateX(-50%);transform: translateY(-50%) translateX(-50%);
+		}
+	}
+	// ~
+	.hero:hover ~ .plus-sign {
+		width: 50%;
+		&::before {
+			height: 0;
+		}
+	}
+	.hero:nth-child(1):hover ~ .plus-sign {
+		left: 25%;
+	}
+	.hero:nth-child(2):hover ~ .plus-sign {
+		left: 75%;
+	}
+}

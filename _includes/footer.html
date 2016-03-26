@@ -25,6 +25,12 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
+
+          {% if site.linkedin_username %}
+          <li>
+            {% include icon-linkedin.html username=site.linkedin_username %}
+          </li>
+          {% endif %}
         </ul>
       </div>
 
@@ -36,3 +42,37 @@
   </div>
 
 </footer>
+<section class="site-copyright">
+  <div class="wrapper">
+    Copyright {{ site.time | date: '%Y' }}
+  </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-2.2.2.min.js"integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+
+
+<script>
+$(document).ready(function() {
+
+  $('.gallery-slider').slick({
+    cssEase: 'ease-out',
+    responsive: [{
+      breakpoint: 800,
+      settings: {
+        arrows: false,
+        dots: true
+      }
+    }]
+  });
+
+  $('.gallery-slide-nav').click(function() {
+    $('.gallery-slider').slick('slickGoTo', $(this).index(), true);
+    $('html').addClass('open-modal');
+  });
+
+  $('.modal-close').click(function(){
+    $('html').removeClass('open-modal');
+  });  
+});
+</script>

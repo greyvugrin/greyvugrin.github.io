@@ -1,0 +1,60 @@
+---
+layout: default
+gallery_items:
+- http://placehold.it/300/1
+- http://placehold.it/300/2
+- http://placehold.it/300/3
+- http://placehold.it/300/4
+- http://placehold.it/300/5
+- http://placehold.it/300/6
+- http://placehold.it/300/7
+- http://placehold.it/300/8
+- http://placehold.it/300/9
+
+---
+<section class="hero hero--colored">
+    <div class="hero-content">
+      <h1 class="hero-content__title">Design</h1>
+    </div>
+</section>
+
+<div class="page-content">
+  <div class="wrapper">
+    <div class="home">
+
+      <div class="grid grid--3-up">
+        {% for gallery_item in page.gallery_items %}
+        	<div class="grid__item gallery-slide-nav">
+        		<img src="{{ gallery_item }}" />
+        	</div>
+        {% endfor %}
+      </div>
+
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="modal modal--gallery">
+	<button class="modal-close">X</button>
+    <div class="modal-inner">
+        <div class="gallery-slider">
+        	 <!-- {% for gallery_item in page.gallery_items %}
+        	<div class="grid__item">
+        		<img src="{{ gallery_item | replace: '300', 1000 }}" />
+        	</div>
+        {% endfor %} -->
+        	<div class="gallery-slide">
+        		<img src="http://localhost/vertico_old/images/vulture-small.jpg" />
+        	</div>
+        	<div class="gallery-slide">
+        		<img src="http://localhost/vertico_old/images/vulture-big.jpg" />
+        	</div>
+        	<div class="gallery-slide">
+        		<img src="http://placehold.it/400x500/9" />
+        	</div>
+        </div>
+    </div>
+</div>
