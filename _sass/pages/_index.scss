@@ -28,16 +28,19 @@
 		}
 	}
 	// ~
-	.hero:hover ~ .plus-sign {
-		width: 50%;
-		&::before {
-			height: 0;
-		}
-	}
-	.hero:nth-child(1):hover ~ .plus-sign {
-		left: 25%;
-	}
-	.hero:nth-child(2):hover ~ .plus-sign {
-		left: 75%;
-	}
+	// .hero:hover ~ .plus-sign {
+	// 	width: 50%;
+	// 	height: 10vh;
+	// 	border: 2px solid $brand-light;
+	// 	background-color: transparent;
+	// 	&::before {
+	// 		height: 0;
+	// 	}
+	// }
+	// .hero:nth-child(1):hover ~ .plus-sign {
+	// 	left: 25%;
+	// }
+	// .hero:nth-child(2):hover ~ .plus-sign {
+	// 	left: 75%;
+	// }
 }

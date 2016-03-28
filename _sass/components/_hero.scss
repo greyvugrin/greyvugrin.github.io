@@ -18,3 +18,16 @@
 .hero-content__title {
 	@extend .post-title; 
 }
+.hero--design {
+	background-image: url("../images/design/a.jpg"), linear-gradient($brand-color, $highlight-color);
+	background-blend-mode: exclusion;
+	transition: 10s all;
+	background-size: 100%;
+	&:hover {
+		background-size: 130%;
+	}
+}
+a.hero {
+	color: $brand-light;
+	text-decoration: none;
+}

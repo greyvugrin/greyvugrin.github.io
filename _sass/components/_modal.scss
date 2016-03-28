@@ -57,21 +57,30 @@ html.open-modal .modal {
     -webkit-align-items: center;
     -ms-flex-align: center;
             align-items: center;
-    @media (min-width: $on-laptop) {
-    	.slick-slide::before {
-		    content: '';
-		    display: inline-block;
-		    height: 100%;
-		    vertical-align: middle;
-		}
-		.slick-slide img {
-		    vertical-align: middle;
-		    display: inline-block;
-		}
-		.slick-track {
-		    height: 80vh;
-		}
-    }
+  //   	.slick-slide::before {
+		//     content: '';
+		//     display: inline-block;
+		//     height: 100%;
+		//     vertical-align: middle;
+		// }
+		// .slick-slide img {
+		//     vertical-align: middle;
+		//     display: inline-block;
+		// }
+	.slick-track {
+	    height: 80vh;
+	}
+	.slick-initialized .slick-slide {
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		        align-items: center;
+		-webkit-justify-content: space-around;
+		-ms-flex-pack: distribute;
+		        justify-content: space-around;
+	}
 }
 .modal-inner {
 	max-width: 800px;
