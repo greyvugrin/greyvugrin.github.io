@@ -1,6 +1,6 @@
 .hero {
-	min-height: 400px;
-	min-height: 40vh;
+	min-height: 300px;
+	min-height: 30vh;
 	display: -webkit-flex;display: -ms-flexbox;display: flex;
 	-webkit-align-items: center;
 	    -ms-flex-align: center;
@@ -15,13 +15,16 @@
 .hero-content {
 
 }
+.hero-content--full-width {
+	width: 100%;
+}
 .hero-content__title {
 	@extend .post-title; 
 }
 .hero--design {
 	background-image: url("../images/design/a.jpg"), linear-gradient($brand-color, $highlight-color);
 	background-blend-mode: exclusion;
-	transition: 10s all;
+	transition: 10s background-size;
 	background-size: 100%;
 	&:hover {
 		background-size: 130%;

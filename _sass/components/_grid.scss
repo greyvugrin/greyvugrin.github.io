@@ -15,3 +15,10 @@
 		padding: $spacing-unit / 8;
 	}
 }
+
+.grid--2-up {
+	.grid__item {
+		-webkit-flex-basis: 50%;-ms-flex-preferred-size: 50%;flex-basis: 50%;
+		padding: $spacing-unit / 8;
+	}
+}

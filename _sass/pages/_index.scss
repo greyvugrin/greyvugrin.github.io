@@ -1,9 +1,18 @@
 .home-split-heroes {
 	position: relative;
+	@media (max-width: 767px) {
+		flex-wrap: wrap;
+	}
 	.hero {
 		-webkit-flex: 1;-ms-flex: 1;flex: 1;
 		height: 600px;
 		height: 70vh;
+		@media (max-width: 767px) {
+			height: 300px;
+			height: 35vh;
+			flex-basis: 100%;
+			flex-shrink: 0;
+		}
 	}
 	.plus-sign {
 		position: absolute;
