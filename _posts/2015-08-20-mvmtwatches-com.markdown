@@ -12,7 +12,7 @@ The combination of high online traffic and MVMT's willingness to experiment with
 
 Below are some of my contributions to the project.
 
-## Product Filteringg
+## Product Filtering
 
 ![An animated GIF of the filtering and sorting at work.](/images/development/mvmt-filtering.gif "Instant filtering and sorting - no reload!")
 
