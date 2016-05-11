@@ -10,7 +10,7 @@ title: Grey Vugrin
 email: greyvugrin@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hi, I'm Grey Vugrin – web developer, part-time designer, weekend volleyball player.
-  I enjoy puttig my mind at work to solve business problems with technology. 
+  I enjoy putting my mind at work to solve business problems with technology. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: gindex90
