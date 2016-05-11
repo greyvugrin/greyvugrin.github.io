@@ -49,7 +49,7 @@ var filterProducts = function(tagArray) {
 
 ![An GIF of the watch fading in and its hands moving.](/images/development/mvmt-chrono.gif)
 
-For the a product launch landing page, I animated an SVG of a watch to 'build' as the page is scrolled down, and rotated the hands so they tick proportionally. This was accomplished by editing the SVG's XML layout to group each element together, and using animateTransform elements to move the hands directly in the markup. 
+For the chrono product launch landing page, I animated an SVG of a watch to 'build' as the page is scrolled down, and rotated the hands so they tick proportionally. This was accomplished by editing the SVG's XML layout to group each element together, and using animateTransform elements to move the hands directly in the markup. 
 
 *The seconds hand group and animateTransform element:*
 {% highlight html %}
