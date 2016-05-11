@@ -4,6 +4,7 @@ title:  "Schweat.com"
 date:   2013-04-15
 tags: [development, heroku, ajax, php]
 categories: [development]
+thumbnail: "/images/development/schweat-home-search.jpeg"
 images:
 - /development/schweat-home-search.jpeg
 - /development/schweat-my-workouts.jpeg

@@ -4,6 +4,7 @@ title:  "MVMT Watches"
 date:   2015-08-20
 tags: [development, Shopify, JavaScript, liquid]
 categories: [development]
+thumbnail: "/images/development/mvmt-chrono.gif"
 ---
 
 MVMT Watches is a leading watch brand based in LA. Throughout the majority of my career at Brand Value Accelerator I've been intimately involved with the optimization (through Optimizely) and development of [their Shopify store](mvmtwatches.com){:target="_blank"} as the project's main developer.

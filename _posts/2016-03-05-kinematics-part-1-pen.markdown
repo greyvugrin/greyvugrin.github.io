@@ -4,6 +4,7 @@ title:  "Kinematics Part 1 Pen"
 date:   2016-03-05
 tags: [JavaScript, canvas, html5]
 categories: [development]
+thumbnail: "/images/development/kinematics.gif"
 ---
 
 I was feeling the urge to try out generative art recently, and through many hours of researching tools / frameworks / tutorials, realized that I could hone my JS skills at the same time. This led me to the [Coding Math](https://www.youtube.com/channel/UCF6F8LdCSWlRwQm_hfA2bcQ){:target="_blank"} YouTube channel -- it has JS tutorials for anything from fractals to physics.

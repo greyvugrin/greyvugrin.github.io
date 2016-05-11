@@ -2,7 +2,6 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -172,8 +171,6 @@
     }
 }
 
-
-
 /**
  * Page content
  */
@@ -204,7 +201,13 @@
     font-size: 24px;
 }
 
-
+.post-thumbnail {
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: $spacing-unit / 2;
+}
 
 /**
  * Posts
