@@ -7,7 +7,7 @@ categories: [development]
 thumbnail: "/images/development/mvmt-chrono.gif"
 ---
 
-MVMT Watches is a leading watch brand based in LA. Throughout the majority of my career at Brand Value Accelerator I've been intimately involved with the optimization (through Optimizely) and development of [their Shopify store](mvmtwatches.com){:target="_blank"} as the project's main developer.
+MVMT Watches is a leading watch brand based in LA. Throughout the majority of my career at Brand Value Accelerator I've been intimately involved with the optimization (through Optimizely) and development of [their Shopify store](http://mvmtwatches.com){:target="_blank"} as the project's main developer.
 
 The combination of high online traffic and MVMT's willingness to experiment with new technologies makes their site a fertile learning environment. From landing pages to a complex promotional discount system, I have worked both internally and directly with the client to provide the most elegant solutions to enhance their e-commerce experience.
 
