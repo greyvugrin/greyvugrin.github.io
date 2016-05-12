@@ -12,6 +12,7 @@
 .grid--3-up {
 	.grid__item {
 		-webkit-flex-basis: 33.33%;-ms-flex-preferred-size: 33.33%;flex-basis: 33.33%;
+		max-width: 33.33%;
 		padding: $spacing-unit / 8;
 	}
 }
@@ -19,6 +20,7 @@
 .grid--2-up {
 	.grid__item {
 		-webkit-flex-basis: 50%;-ms-flex-preferred-size: 50%;flex-basis: 50%;
+		max-width: 50%;
 		padding: $spacing-unit / 8;
 	}
 }
