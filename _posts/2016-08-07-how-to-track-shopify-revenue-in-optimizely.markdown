@@ -4,7 +4,7 @@ title:  "How to track Shopify revenue in Optimizely"
 date:   2016-08-07
 tags: [development, Shopify, JavaScript, liquid]
 categories: [development]
-thumbnail: "/images/development/gpen.png"
+thumbnail: "/images/development/Optimizely.png"
 ---
 
 Recently, after following the standard Optimizely [revenue tracking guide for Shopify](https://help.optimizely.com/Integrate_Other_Platforms/Implementing_Optimizely_on_a_CMS_or_e-commerce_platform#Shopify){:target="_blank"}, our team noticed some supicious behavior in an experiment's revenue tracking.
