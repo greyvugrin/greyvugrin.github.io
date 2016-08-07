@@ -22,3 +22,4 @@ markdown: kramdown
 exclude: [node_modules, gulpfile.js]
 gems:
   - jekyll-seo-tag
+  - jekyll-sitemap
